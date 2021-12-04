@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: dad4d2a1eb952fe47a365cabf874bcd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2050145900465033245
+    second: terminalscapeSprites_0
+  - first:
+      213: -776966624281630215
+    second: terminalscapeSprites_1
+  - first:
+      213: -1143893338414422466
+    second: terminalscapeSprites_2
+  - first:
+      213: -2777742520145656518
+    second: terminalscapeSprites_3
+  - first:
+      213: -8312137040053854612
+    second: terminalscapeSprites_4
+  - first:
+      213: -5356937529691205696
+    second: terminalscapeSprites_5
+  - first:
+      213: 466001518519833467
+    second: terminalscapeSprites_6
+  - first:
+      213: -231566454523083724
+    second: terminalscapeSprites_7
+  - first:
+      213: 2317753044507794043
+    second: terminalscapeSprites_8
+  - first:
+      213: 2170770986074616818
+    second: terminalscapeSprites_9
+  - first:
+      213: 2068209829668530840
+    second: terminalscapeSprites_10
+  - first:
+      213: 7789790221099967267
+    second: terminalscapeSprites_11
+  - first:
+      213: -6271455227594367689
+    second: terminalscapeSprites_12
+  - first:
+      213: 3287625820711511602
+    second: terminalscapeSprites_13
+  - first:
+      213: 6264245512540547432
+    second: terminalscapeSprites_14
+  - first:
+      213: -7755200635635870920
+    second: terminalscapeSprites_15
+  - first:
+      213: -8355342920182499979
+    second: terminalscapeSprites_16
+  - first:
+      213: 8523494187082859213
+    second: terminalscapeSprites_17
+  - first:
+      213: -6083965716530759930
+    second: terminalscapeSprites_18
+  - first:
+      213: -487202053559730516
+    second: terminalscapeSprites_19
+  - first:
+      213: 4018750432714843736
+    second: terminalscapeSprites_20
+  - first:
+      213: -568265044784317476
+    second: terminalscapeSprites_21
+  - first:
+      213: -6372111328954095339
+    second: terminalscapeSprites_22
+  - first:
+      213: -176694221958270768
+    second: terminalscapeSprites_23
+  - first:
+      213: 805557647378714851
+    second: terminalscapeSprites_24
+  - first:
+      213: 2267970431412599328
+    second: terminalscapeSprites_25
+  - first:
+      213: 7347203635078279092
+    second: terminalscapeSprites_26
+  - first:
+      213: -2893857225381985163
+    second: terminalscapeSprites_27
+  - first:
+      213: -7591240532230000152
+    second: terminalscapeSprites_28
+  - first:
+      213: -6568653459913570808
+    second: terminalscapeSprites_29
+  - first:
+      213: -555637407350942216
+    second: terminalscapeSprites_30
+  - first:
+      213: 2638795348439720203
+    second: terminalscapeSprites_31
+  - first:
+      213: -7518202370616980616
+    second: terminalscapeSprites_32
+  - first:
+      213: 7341632685704019924
+    second: terminalscapeSprites_33
+  - first:
+      213: -1667771935729819962
+    second: terminalscapeSprites_34
+  - first:
+      213: 2257611706038681103
+    second: terminalscapeSprites_35
+  - first:
+      213: 6644062454894076414
+    second: terminalscapeSprites_36
+  - first:
+      213: -328250482255137938
+    second: terminalscapeSprites_37
+  - first:
+      213: -4966146914006126551
+    second: terminalscapeSprites_38
+  - first:
+      213: 439959407997115074
+    second: terminalscapeSprites_39
+  - first:
+      213: -4745620437347259416
+    second: terminalscapeSprites_40
+  - first:
+      213: 3055635707973848637
+    second: terminalscapeSprites_41
+  - first:
+      213: -8071357420745805553
+    second: terminalscapeSprites_42
+  - first:
+      213: -7334390799404290225
+    second: terminalscapeSprites_43
+  - first:
+      213: 4097513436107011474
+    second: terminalscapeSprites_44
+  - first:
+      213: 8681347557516979019
+    second: terminalscapeSprites_45
+  - first:
+      213: -8841338102198482771
+    second: terminalscapeSprites_46
+  - first:
+      213: 7232190331849871136
+    second: terminalscapeSprites_47
+  - first:
+      213: 8222161672466061845
+    second: terminalscapeSprites_48
+  - first:
+      213: 7949932192857370976
+    second: terminalscapeSprites_49
+  - first:
+      213: 2120781658714383094
+    second: terminalscapeSprites_50
+  - first:
+      213: 7217522405505902167
+    second: terminalscapeSprites_51
+  - first:
+      213: 6539674842503224305
+    second: terminalscapeSprites_52
+  - first:
+      213: 1554474828854742714
+    second: terminalscapeSprites_53
+  - first:
+      213: 6398014541791486041
+    second: terminalscapeSprites_54
+  - first:
+      213: 2533181184445130541
+    second: terminalscapeSprites_55
+  - first:
+      213: 321389192455230766
+    second: terminalscapeSprites_56
+  - first:
+      213: -5855033833349364424
+    second: terminalscapeSprites_57
+  - first:
+      213: 2515549759926035993
+    second: terminalscapeSprites_58
+  - first:
+      213: 4336891218018758556
+    second: terminalscapeSprites_59
+  - first:
+      213: -688050827681011193
+    second: terminalscapeSprites_60
+  - first:
+      213: -877428002067676459
+    second: terminalscapeSprites_61
+  - first:
+      213: 7761760223606804299
+    second: terminalscapeSprites_62
+  - first:
+      213: 2606008672817535337
+    second: terminalscapeSprites_63
+  - first:
+      213: 828116897502017953
+    second: terminalscapeSprites_64
+  - first:
+      213: -7013184819750812527
+    second: terminalscapeSprites_65
+  - first:
+      213: -5165355903709523178
+    second: terminalscapeSprites_66
+  - first:
+      213: -6045091418068617910
+    second: terminalscapeSprites_67
+  - first:
+      213: 6547779468008427706
+    second: terminalscapeSprites_68
+  - first:
+      213: 5321046622484550864
+    second: terminalscapeSprites_69
+  - first:
+      213: -5349014197643939645
+    second: terminalscapeSprites_70
+  - first:
+      213: -8607653435890920848
+    second: terminalscapeSprites_71
+  - first:
+      213: -6644202514126211408
+    second: terminalscapeSprites_72
+  - first:
+      213: 1552035577420452527
+    second: terminalscapeSprites_73
+  - first:
+      213: -7951002622485429246
+    second: terminalscapeSprites_74
+  - first:
+      213: -4027418297430746717
+    second: terminalscapeSprites_75
+  - first:
+      213: 6390234542935313364
+    second: terminalscapeSprites_76
+  - first:
+      213: 3635285232862612889
+    second: terminalscapeSprites_77
+  - first:
+      213: -4583345491955877593
+    second: terminalscapeSprites_78
+  - first:
+      213: -3119859177797737013
+    second: terminalscapeSprites_79
+  - first:
+      213: -9171997134287164374
+    second: terminalscapeSprites_80
+  - first:
+      213: -1509611811594969878
+    second: terminalscapeSprites_81
+  - first:
+      213: -2145618178573903998
+    second: terminalscapeSprites_82
+  - first:
+      213: -4952726799065562302
+    second: terminalscapeSprites_83
+  - first:
+      213: 3408196961425115772
+    second: terminalscapeSprites_84
+  - first:
+      213: -7539768892840866392
+    second: terminalscapeSprites_85
+  - first:
+      213: 767214876084693650
+    second: terminalscapeSprites_86
+  - first:
+      213: 6666889138617986458
+    second: terminalscapeSprites_87
+  - first:
+      213: 1170136082402625435
+    second: terminalscapeSprites_88
+  - first:
+      213: 1175403634184488043
+    second: terminalscapeSprites_89
+  - first:
+      213: -7795264358946327438
+    second: terminalscapeSprites_90
+  - first:
+      213: -8254389483053340266
+    second: terminalscapeSprites_91
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terminalscapeSprites_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 336
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efee096a2b6c83e0800000000000000
+      internalID: -2050145900465033245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 336
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9eb55c8f8a735f0800000000000000
+      internalID: -776966624281630215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 336
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e366fdeb1131020f0800000000000000
+      internalID: -1143893338414422466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 336
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35483125e97379d0800000000000000
+      internalID: -2777742520145656518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 336
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e1933d66b55ac80800000000000000
+      internalID: -8312137040053854612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 336
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0cc2f2b558a5b0800000000000000
+      internalID: -5356937529691205696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 336
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73da2089e1977600800000000000000
+      internalID: 466001518519833467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 336
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4344148598f49ccf0800000000000000
+      internalID: -231566454523083724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 336
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a97fe2d105a2020800000000000000
+      internalID: 2317753044507794043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 336
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3b3b9e5b0202e10800000000000000
+      internalID: 2170770986074616818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 336
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a2d5ad1e1c3bc10800000000000000
+      internalID: 2068209829668530840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 336
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a97b1fe4ea1c60800000000000000
+      internalID: 7789790221099967267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d9876b2b057f8a0800000000000000
+      internalID: -6271455227594367689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 288
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23669ede34eff9d20800000000000000
+      internalID: 3287625820711511602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86960d0ba121fe650800000000000000
+      internalID: 6264245512540547432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 288
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335a075c1eff5490800000000000000
+      internalID: -7755200635635870920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57572f1f1ebdb0c80800000000000000
+      internalID: -8355342920182499979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 288
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc24e22cdc8894670800000000000000
+      internalID: 8523494187082859213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60777804a69619ba0800000000000000
+      internalID: -6083965716530759930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae3bb7405c1d39f0800000000000000
+      internalID: -487202053559730516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 288
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566aeee93875c730800000000000000
+      internalID: 4018750432714843736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 288
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbfb5bd3fd1d18f0800000000000000
+      internalID: -568265044784317476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_22
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 288
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519e278d186b197a0800000000000000
+      internalID: -6372111328954095339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 288
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d030529a814c8df0800000000000000
+      internalID: -176694221958270768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 240
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e09b1a896aed2b00800000000000000
+      internalID: 805557647378714851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 240
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aff655713797f10800000000000000
+      internalID: 2267970431412599328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 240
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfac4967c286f560800000000000000
+      internalID: 7347203635078279092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 240
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c8629f24f6d7d0800000000000000
+      internalID: -2893857225381985163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_28
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 240
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e132efb4fe76a690800000000000000
+      internalID: -7591240532230000152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 240
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806063dfa7477d4a0800000000000000
+      internalID: -6568653459913570808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 240
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f59deec8baf948f0800000000000000
+      internalID: -555637407350942216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 240
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e3b27362ee9420800000000000000
+      internalID: 2638795348439720203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 240
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b00ede6caf9a790800000000000000
+      internalID: -7518202370616980616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_33
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 240
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dff8cea708b2e560800000000000000
+      internalID: 7341632685704019924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_34
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 240
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce557cb242ead8e0800000000000000
+      internalID: -1667771935729819962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 240
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ef233a2e5a45f10800000000000000
+      internalID: 2257611706038681103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1a879d993743c50800000000000000
+      internalID: 6644062454894076414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 192
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f4dfece1d17bf0800000000000000
+      internalID: -328250482255137938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920334881b3b41bb0800000000000000
+      internalID: -4966146914006126551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 192
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca524520cc0b1600800000000000000
+      internalID: 439959407997115074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 192
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb25190b5b242eb0800000000000000
+      internalID: -4745620437347259416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_41
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 192
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ec7c8ac7cc76a20800000000000000
+      internalID: 3055635707973848637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 192
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01bb319037ccff80800000000000000
+      internalID: -8071357420745805553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_43
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 192
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f2d9d5d62073a90800000000000000
+      internalID: -7334390799404290225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 192
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957c85b2ca4dd830800000000000000
+      internalID: 4097513436107011474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_45
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 192
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b21899b975a7870800000000000000
+      internalID: 8681347557516979019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 47
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da84557e6d14d4580800000000000000
+      internalID: -8841338102198482771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_47
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 192
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0dedf9c6ed5460800000000000000
+      internalID: 7232190331849871136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 144
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51adb2d6a7cfa1270800000000000000
+      internalID: 8222161672466061845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061b4b77535d35e60800000000000000
+      internalID: 7949932192857370976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 144
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2a5d5aea78e6d10800000000000000
+      internalID: 2120781658714383094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 144
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562a92436ac92460800000000000000
+      internalID: 7217522405505902167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_52
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 144
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb96fdde9791ca50800000000000000
+      internalID: 6539674842503224305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_53
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 144
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe4c22fe9a929510800000000000000
+      internalID: 1554474828854742714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 144
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950e34fd3505ac850800000000000000
+      internalID: 6398014541791486041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_55
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 144
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d272e8aaddaa72320800000000000000
+      internalID: 2533181184445130541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_56
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 144
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2591fa84cdc57400800000000000000
+      internalID: 321389192455230766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8354157ffbdbebea0800000000000000
+      internalID: -5855033833349364424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_58
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e53fbd2709e220800000000000000
+      internalID: 2515549759926035993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 96
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe48fb59bbf2c30800000000000000
+      internalID: 4336891218018758556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_60
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 96
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ae8acea6d8376f0800000000000000
+      internalID: -688050827681011193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_61
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d286c481efb2d3f0800000000000000
+      internalID: -877428002067676459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_62
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 96
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f07dfbccf47bb60800000000000000
+      internalID: 7761760223606804299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_63
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 96
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96950e8a4176a2420800000000000000
+      internalID: 2606008672817535337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 96
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a93b144eef0e7b00800000000000000
+      internalID: 828116897502017953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194479a50992cae90800000000000000
+      internalID: -7013184819750812527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_66
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 96
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6135dec3c28f058b0800000000000000
+      internalID: -5165355903709523178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_67
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 96
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f14f22658b1ca0800000000000000
+      internalID: -6045091418068617910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_68
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab01d3a0cb26eda50800000000000000
+      internalID: 6547779468008427706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_69
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4db7606b728d940800000000000000
+      internalID: 5321046622484550864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 48
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c079e27deb74c5b0800000000000000
+      internalID: -5349014197643939645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_71
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 48
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0721d0c2ec87b8880800000000000000
+      internalID: -8607653435890920848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_72
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 48
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ffb1140d0bc3a0800000000000000
+      internalID: -6644202514126211408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_73
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 48
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21ae67220f98510800000000000000
+      internalID: 1552035577420452527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_74
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 48
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2048e86bd3d58a190800000000000000
+      internalID: -7951002622485429246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_75
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 48
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a95bbb856cbb18c0800000000000000
+      internalID: -4027418297430746717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db071bb57caea850800000000000000
+      internalID: 6390234542935313364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_77
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 48
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dcff1a8a0237230800000000000000
+      internalID: 3635285232862612889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_78
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 48
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f4150f8fa460c0800000000000000
+      internalID: -4583345491955877593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5af168b9804b4d0800000000000000
+      internalID: -3119859177797737013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca9e1a33586b080800000000000000
+      internalID: -9171997134287164374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd52d3e08cc0be0800000000000000
+      internalID: -1509611811594969878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_82
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2875b7272ab3932e0800000000000000
+      internalID: -2145618178573903998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c3288731644bb0800000000000000
+      internalID: -4952726799065562302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_84
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a4f4a34195c4f20800000000000000
+      internalID: 3408196961425115772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_85
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad0eada32c5d5790800000000000000
+      internalID: -7539768892840866392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_86
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a6c6b6dd1b5aa00800000000000000
+      internalID: 767214876084693650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_87
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d2c30595c858c50800000000000000
+      internalID: 6666889138617986458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_88
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97c97a31982d3010800000000000000
+      internalID: 1170136082402625435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_89
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b640543b06fdf4010800000000000000
+      internalID: 1175403634184488043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_90
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274bdbadd58a1d390800000000000000
+      internalID: -7795264358946327438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalscapeSprites_91
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a2e0bf74827d80800000000000000
+      internalID: -8254389483053340266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
