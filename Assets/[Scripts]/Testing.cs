@@ -35,32 +35,28 @@ public class Testing : MonoBehaviour
             int randomMods = Random.Range(0, 5);
             for (int j = 0; j < randomMods; j++)
             {
-                PlayerStats._modifiers[i].Add(Random.Range(0, 10));
+                PlayerStats._modifiers[i].Add(Random.Range(-10, 10));
             }
         }
         PlayerStats._loaded = true;
     }
 
-
     public void DisplayUserData()
     {
         string output = "";
-        if (PlayerStats._loaded)
+        if (GameStatics._fileLoaded)
         {
             for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
             {
-                output += ((PlayerStatType)i).ToString() + $": {PlayerStats._stats[i]}";
-                int modifierCount = PlayerStats._modifiers[i].Count;
-                if (modifierCount > 0)
+                if (i == 0)
                 {
-                    foreach (int mod in PlayerStats._modifiers[i])
-                    {
-                        output += $" + {mod}";
-                    }
+                    output += ((PlayerStatType)i).ToString() + $": {GameStatics._currentPlayerIntegrity}/{GameStatics._currentPlayerStats[i]}\n";
                 }
-                output += "\n";
+                else output += ((PlayerStatType)i).ToString() + $": {GameStatics._currentPlayerStats[i]}\n";
             }
-            output += $"Saved as: {PlayerStats._fileName}";
+            output += $"Points Available: {GameStatics._playerUpgradePoints}\n" +
+                $"Difficulty: {GameStatics._enemyDifficulty}\n\n" +
+                $"Saved as: {GameStatics._currentSaveFileName}";
         }
         StatDisplay.text = output;
     }
@@ -69,35 +65,33 @@ public class Testing : MonoBehaviour
     {
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            PlayerStats._stats[i] = 0;
-            if (PlayerStats._modifiers[i].Count > 0)
-            {
-                PlayerStats._modifiers[i].Clear();
-            }
+            GameStatics._currentPlayerStats[i] = GameStatics._statMinValues[i];
         }
-        PlayerStats._loaded = false;
-        PlayerStats._fileName = "";
+        GameStatics._currentPlayerIntegrity = GameStatics._currentPlayerStats[0];
+        GameStatics._playerUpgradePoints = 0;
+        GameStatics._enemyDifficulty = 0;
+        GameStatics._fileLoaded = false;
+        GameStatics._currentSaveFileName = "";
     }
 
+    /// <summary>
+    /// save file format - csv, anything in {} represents parameter:
+    /// {ActiveDataIntegrity}, {DataIntegrity}, {BandwidthCap}, {ConnectionSpeed}, {Backups}, {SystemKnowledge}, {ExfilChance}, {PointsAvailable}, {EnemyLevel}
+    /// </summary>
     public void WritePlayerData()
     {
         StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{saveFileName}.txt");
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
+        string line = $"{GameStatics._currentPlayerIntegrity},";
+        foreach (int stat in GameStatics._currentPlayerStats)
         {
-            int modifierCount = PlayerStats._modifiers[i].Count;
-            string line = $"{PlayerStats._stats[i]},{PlayerStats._modifiers[i].Count}";
-            if (modifierCount > 0)
-            {
-                foreach (int mod in PlayerStats._modifiers[i])
-                {
-                    line += $",{mod}";
-                }
-            }
-            sw.WriteLine(line);
+            line += $"{stat},";
         }
+        line += $"{GameStatics._playerUpgradePoints},{GameStatics._enemyDifficulty}";
+        sw.WriteLine(line);
         sw.Close();
-        PlayerStats._loaded = true;
-        PlayerStats._fileName = saveFileName;
+        GameStatics._fileLoaded = true;
+        GameStatics._currentSaveFileName = saveFileName;
+        Debug.Log($"Save file registered: {saveFileName}");
     }
 
     public void ReadPlayerData()
@@ -108,30 +102,37 @@ public class Testing : MonoBehaviour
             {
                 FlushPlayerData();
                 string line;
-                int currentModifiedStat = 0;
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] csv = line.Split(',');
-                    PlayerStats._stats[currentModifiedStat] = int.Parse(csv[0]);
-                    for (int i = 0; i < int.Parse(csv[1]); i++)
+                    GameStatics._currentPlayerIntegrity = int.Parse(csv[0]);
+                    for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
                     {
-                        PlayerStats._modifiers[currentModifiedStat].Add(int.Parse(csv[2 + i]));
+                        GameStatics._currentPlayerStats[i] = int.Parse(csv[i+1]);
                     }
-                    currentModifiedStat++;
+                    GameStatics._playerUpgradePoints = int.Parse(csv[7]);
+                    GameStatics._enemyDifficulty = int.Parse(csv[8]);
                 }
                 sr.Close();
-                PlayerStats._loaded = true;
-                PlayerStats._fileName = saveFileName;
+                GameStatics._fileLoaded = true;
+                GameStatics._currentSaveFileName = saveFileName;
+                Debug.Log($"Save file registered: {saveFileName}");
             }
         }
         catch (System.Exception e)
         {
             Debug.Log(e);
+            GenerateRandomUserData();
         }
     }
 
     public void LoadCreationScene()
     {
-        SceneManager.LoadScene("PlayerCreation");
+        SceneManager.LoadScene("Scenes/PlayerCreation");
+    }
+
+    public void LoadCombatScene()
+    {
+        SceneManager.LoadScene("Scenes/CombatScene");
     }
 }
