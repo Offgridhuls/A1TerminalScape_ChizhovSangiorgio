@@ -45,31 +45,25 @@ public enum EnemySkills
     Compromise = 0,
     Backdoor = 1,
     DoS = 2,
-    Redact = 3,
-    Ping = 4,
-    SKILLCOUNT = 5
+    Ping = 3,
+    SKILLCOUNT = 4
 }
 public static class GameStatics
 {
     //base stats to build player and enemy from
     public static int[] _statMinValues = new int[] { 100, 100, 3, 20, 2, 10 };
     public static int[] _statIncrementValues = new int[] { 10, 10, 1, 5, 1, 2 };
-
-    //saved info of current player
-    public static string _currentSaveFileName = "";
-    public static bool _fileLoaded = false;
-    public static int[] _currentPlayerStats = new int[(int)PlayerStatType.STATCOUNT];
-    public static int _currentPlayerIntegrity;
-    public static int _playerUpgradePoints = 0;
-    public static int _enemyDifficulty = 0;
 }
 
 public static class PlayerStats
 {
-    public static string _fileName = "";
-    public static bool _loaded = false;
-    public static int[] _stats = new int[(int)PlayerStatType.STATCOUNT];
-    public static List<int>[] _modifiers = new List<int>[(int)PlayerStatType.STATCOUNT];
+    public static string _currentSaveFileName = "";
+    public static bool _fileLoaded = false;
+    public static int[] _currentPlayerStats = new int[(int)PlayerStatType.STATCOUNT];
+    //public static List<int>[] _modifiers = new List<int>[(int)PlayerStatType.STATCOUNT];
+    public static int _currentPlayerIntegrity;
+    public static int _playerUpgradePoints = 0;
+    public static int _enemyDifficulty = 0;
 }
 
 public static class EnemyStats

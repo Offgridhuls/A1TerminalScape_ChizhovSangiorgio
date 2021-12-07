@@ -20,10 +20,10 @@ public class Testing : MonoBehaviour
     private void Start()
     {
         //Initializes the lists inside the static class
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
+        /*for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
             PlayerStats._modifiers[i] = new List<int>();
-        }
+        }*/
     }
 
     public void GenerateRandomUserData()
@@ -31,32 +31,32 @@ public class Testing : MonoBehaviour
         FlushPlayerData();
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++ )
         {
-            PlayerStats._stats[i] = Random.Range(0, 100);
+            PlayerStats._currentPlayerStats[i] = Random.Range(0, 100);
             int randomMods = Random.Range(0, 5);
             for (int j = 0; j < randomMods; j++)
             {
-                PlayerStats._modifiers[i].Add(Random.Range(-10, 10));
+                //PlayerStats._modifiers[i].Add(Random.Range(-10, 10));
             }
         }
-        PlayerStats._loaded = true;
+        PlayerStats._fileLoaded = true;
     }
 
     public void DisplayUserData()
     {
         string output = "";
-        if (GameStatics._fileLoaded)
+        if (PlayerStats._fileLoaded)
         {
             for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
             {
                 if (i == 0)
                 {
-                    output += ((PlayerStatType)i).ToString() + $": {GameStatics._currentPlayerIntegrity}/{GameStatics._currentPlayerStats[i]}\n";
+                    output += ((PlayerStatType)i).ToString() + $": {PlayerStats._currentPlayerIntegrity}/{PlayerStats._currentPlayerStats[i]}\n";
                 }
-                else output += ((PlayerStatType)i).ToString() + $": {GameStatics._currentPlayerStats[i]}\n";
+                else output += ((PlayerStatType)i).ToString() + $": {PlayerStats._currentPlayerStats[i]}\n";
             }
-            output += $"Points Available: {GameStatics._playerUpgradePoints}\n" +
-                $"Difficulty: {GameStatics._enemyDifficulty}\n\n" +
-                $"Saved as: {GameStatics._currentSaveFileName}";
+            output += $"Points Available: {PlayerStats._playerUpgradePoints}\n" +
+                $"Difficulty: {PlayerStats._enemyDifficulty}\n\n" +
+                $"Saved as: {PlayerStats._currentSaveFileName}";
         }
         StatDisplay.text = output;
     }
@@ -65,13 +65,13 @@ public class Testing : MonoBehaviour
     {
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            GameStatics._currentPlayerStats[i] = GameStatics._statMinValues[i];
+            PlayerStats._currentPlayerStats[i] = GameStatics._statMinValues[i];
         }
-        GameStatics._currentPlayerIntegrity = GameStatics._currentPlayerStats[0];
-        GameStatics._playerUpgradePoints = 0;
-        GameStatics._enemyDifficulty = 0;
-        GameStatics._fileLoaded = false;
-        GameStatics._currentSaveFileName = "";
+        PlayerStats._currentPlayerIntegrity = PlayerStats._currentPlayerStats[0];
+        PlayerStats._playerUpgradePoints = 0;
+        PlayerStats._enemyDifficulty = 0;
+        PlayerStats._fileLoaded = false;
+        PlayerStats._currentSaveFileName = "";
     }
 
     /// <summary>
@@ -81,16 +81,16 @@ public class Testing : MonoBehaviour
     public void WritePlayerData()
     {
         StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{saveFileName}.txt");
-        string line = $"{GameStatics._currentPlayerIntegrity},";
-        foreach (int stat in GameStatics._currentPlayerStats)
+        string line = $"{PlayerStats._currentPlayerIntegrity},";
+        foreach (int stat in PlayerStats._currentPlayerStats)
         {
             line += $"{stat},";
         }
-        line += $"{GameStatics._playerUpgradePoints},{GameStatics._enemyDifficulty}";
+        line += $"{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty}";
         sw.WriteLine(line);
         sw.Close();
-        GameStatics._fileLoaded = true;
-        GameStatics._currentSaveFileName = saveFileName;
+        PlayerStats._fileLoaded = true;
+        PlayerStats._currentSaveFileName = saveFileName;
         Debug.Log($"Save file registered: {saveFileName}");
     }
 
@@ -105,17 +105,17 @@ public class Testing : MonoBehaviour
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] csv = line.Split(',');
-                    GameStatics._currentPlayerIntegrity = int.Parse(csv[0]);
+                    PlayerStats._currentPlayerIntegrity = int.Parse(csv[0]);
                     for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
                     {
-                        GameStatics._currentPlayerStats[i] = int.Parse(csv[i+1]);
+                        PlayerStats._currentPlayerStats[i] = int.Parse(csv[i+1]);
                     }
-                    GameStatics._playerUpgradePoints = int.Parse(csv[7]);
-                    GameStatics._enemyDifficulty = int.Parse(csv[8]);
+                    PlayerStats._playerUpgradePoints = int.Parse(csv[7]);
+                    PlayerStats._enemyDifficulty = int.Parse(csv[8]);
                 }
                 sr.Close();
-                GameStatics._fileLoaded = true;
-                GameStatics._currentSaveFileName = saveFileName;
+                PlayerStats._fileLoaded = true;
+                PlayerStats._currentSaveFileName = saveFileName;
                 Debug.Log($"Save file registered: {saveFileName}");
             }
         }

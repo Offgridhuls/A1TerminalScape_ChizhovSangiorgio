@@ -30,7 +30,7 @@ public class CombatModule : MonoBehaviour
         player.QueueAbilities();
 
         enemy.statsDisplay = enemyStatsDisplay;
-        enemy.GenerateNew(GameStatics._enemyDifficulty);
+        enemy.GenerateNew(PlayerStats._enemyDifficulty);
         enemy.combatModule = this;
 
         playerAbilitiesPanel.SetActive(false);

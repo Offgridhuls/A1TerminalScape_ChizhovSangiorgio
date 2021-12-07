@@ -31,9 +31,11 @@ public class PlayerCreation : MonoBehaviour
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
             modifiers[i] = new List<int>();
+            statValues[i] = GameStatics._statMinValues[i];
+            statIncrements[i] = GameStatics._statIncrementValues[i];
         }
-        if (PlayerStats._loaded) LoadFromPlayer();
-        else Debug.Log("Loading Editor Defaults");
+        if (PlayerStats._fileLoaded) LoadFromPlayer();
+        else Debug.Log("Loaded Editor default player values");
         DisplayValues();
     }
 
@@ -56,7 +58,11 @@ public class PlayerCreation : MonoBehaviour
         {
             pointsAvailable--;
             pointsUsed++;
-            modifiers[type].Add(statIncrements[type]);
+            statValues[type]+=(statIncrements[type]);
+            if (type == (int)PlayerStatType.DataIntegrity)
+            {
+                PlayerStats._currentPlayerIntegrity += statIncrements[type];
+            }
             DisplayValues();
         }
     }
@@ -65,21 +71,17 @@ public class PlayerCreation : MonoBehaviour
     {
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            statValues[i] = PlayerStats._stats[i];
-            foreach(int mod in PlayerStats._modifiers[i]) 
-                statValues[i] += mod;
+            statValues[i] = PlayerStats._currentPlayerStats[i];
         }
-        Debug.Log($"Loaded from {PlayerStats._fileName}");
+        Debug.Log($"Loaded from {PlayerStats._currentSaveFileName}");
     }
 
     public void Save()
     {
-        FlushPlayerModifiers();
         int i = 0;
         foreach(int skill in statValues)
         {
-            foreach (int mod in modifiers[i]) PlayerStats._modifiers[i].Add(mod);
-            PlayerStats._stats[i++] = skill;
+            PlayerStats._currentPlayerStats[i++] = skill;
         }
         Debug.Log("PlayerStats updated");
     }
@@ -98,16 +100,5 @@ public class PlayerCreation : MonoBehaviour
             modifiers[i].Clear();
         }
         DisplayValues();
-    }
-
-    private void FlushPlayerModifiers()
-    {
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
-        {
-            if (PlayerStats._modifiers[i].Count > 0)
-            {
-                PlayerStats._modifiers[i].Clear();
-            }
-        }
     }
 }

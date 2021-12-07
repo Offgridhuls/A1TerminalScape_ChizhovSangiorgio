@@ -21,11 +21,11 @@ public class PlayerCombat : MonoBehaviour, ICombatInterface, IAbilityCaster, IAb
 
     public void LoadStats()
     {
-        baseStats[0] = GameStatics._currentPlayerStats[0];
-        activeStatValues[0] = GameStatics._currentPlayerIntegrity;
+        baseStats[0] = PlayerStats._currentPlayerStats[0];
+        activeStatValues[0] = PlayerStats._currentPlayerIntegrity;
         for (int i = 1; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            baseStats[i] = activeStatValues[i] = GameStatics._currentPlayerStats[i];
+            baseStats[i] = activeStatValues[i] = PlayerStats._currentPlayerStats[i];
         }
         for (int i = 0; i < (int)CombatModifiers.COMBATMODCOUNT; i++)
         {
@@ -51,7 +51,7 @@ public class PlayerCombat : MonoBehaviour, ICombatInterface, IAbilityCaster, IAb
     {
         activeStatValues[(int)PlayerStatType.DataIntegrity] =
             Mathf.Min(activeStatValues[(int)PlayerStatType.DataIntegrity] + activeStatValues[(int)PlayerStatType.Backups], baseStats[(int)PlayerStatType.DataIntegrity]);
-        GameStatics._currentPlayerIntegrity = activeStatValues[(int)PlayerStatType.DataIntegrity];
+        PlayerStats._currentPlayerIntegrity = activeStatValues[(int)PlayerStatType.DataIntegrity];
     }
 
     //combat
