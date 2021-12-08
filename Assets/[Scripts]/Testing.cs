@@ -67,7 +67,7 @@ public class Testing : MonoBehaviour
 
     /// <summary>
     /// save file format - csv, anything in {} represents parameter:
-    /// {ActiveDataIntegrity}, {DataIntegrity}, {BandwidthCap}, {ConnectionSpeed}, {Backups}, {SystemKnowledge}, {ExfilChance}, {PointsAvailable}, {EnemyLevel}
+    /// {ActiveDataIntegrity}, {DataIntegrity}, {BandwidthCap}, {ConnectionSpeed}, {Backups}, {SystemKnowledge}, {ExfilChance}, {PointsAvailable}, {EnemyLevel}, {CurrentIntegrity}
     /// </summary>
     public void WritePlayerData()
     {
@@ -77,7 +77,7 @@ public class Testing : MonoBehaviour
         {
             line += $"{stat},";
         }
-        line += $"{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty}";
+        line += $"{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty},{PlayerStats._currentPlayerIntegrity}";
         sw.WriteLine(line);
         sw.Close();
         PlayerStats._fileLoaded = true;
