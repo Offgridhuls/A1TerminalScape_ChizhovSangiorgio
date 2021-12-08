@@ -60,7 +60,6 @@ public static class PlayerStats
     public static string _currentSaveFileName = "";
     public static bool _fileLoaded = false;
     public static int[] _currentPlayerStats = new int[(int)PlayerStatType.STATCOUNT];
-    //public static List<int>[] _modifiers = new List<int>[(int)PlayerStatType.STATCOUNT];
     public static int _currentPlayerIntegrity;
     public static int _playerUpgradePoints = 0;
     public static int _enemyDifficulty = 0;

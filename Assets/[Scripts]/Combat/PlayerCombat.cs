@@ -44,9 +44,7 @@ public class PlayerCombat : MonoBehaviour, ICombatInterface, IAbilityCaster, IAb
         else combatModule.BattleNotify("Insufficient Bandwidth");
     }
 
-    /// <summary>
     /// OnPlayerWin called after battle is over to update statics with current active values
-    /// </summary>
     public void OnPlayerWin()
     {
         activeStatValues[(int)PlayerStatType.DataIntegrity] =

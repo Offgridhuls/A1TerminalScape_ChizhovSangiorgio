@@ -19,11 +19,6 @@ public class Testing : MonoBehaviour
 
     private void Start()
     {
-        //Initializes the lists inside the static class
-        /*for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
-        {
-            PlayerStats._modifiers[i] = new List<int>();
-        }*/
     }
 
     public void GenerateRandomUserData()
@@ -33,10 +28,6 @@ public class Testing : MonoBehaviour
         {
             PlayerStats._currentPlayerStats[i] = Random.Range(0, 100);
             int randomMods = Random.Range(0, 5);
-            for (int j = 0; j < randomMods; j++)
-            {
-                //PlayerStats._modifiers[i].Add(Random.Range(-10, 10));
-            }
         }
         PlayerStats._fileLoaded = true;
     }

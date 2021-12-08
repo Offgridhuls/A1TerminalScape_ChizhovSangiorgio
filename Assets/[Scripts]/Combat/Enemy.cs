@@ -39,8 +39,25 @@ public class Enemy : MonoBehaviour, ICombatInterface, IAbilityTarget, IAbilityCa
         DisplayStats();
     }
 
-    // combat interface
+    public bool AttemptPlayAbility(EnemySkills ability)
+    {
+        int abilityIndex = (int)ability;
+        if (abilities[abilityIndex].CheckBandwidthAvailable())
+        {
+            Debug.Log($"enemy casting ability {ability}");
+            abilities[abilityIndex].Resolve();
+            DisplayStats();
+            combatModule.player.DisplayStats();
+            return true;
+        }
+        else
+        {
+            Debug.Log("Enemy bandwidth insufficient");
+            return false;
+        }
+    }
 
+    // combat interface
     public void OnBeginTurn()
     {
         activeStatValues[(int)EnemyStatType.Bandwidth] = 
@@ -82,6 +99,44 @@ public class Enemy : MonoBehaviour, ICombatInterface, IAbilityTarget, IAbilityCa
     public void QueueAbilities()
     {
         //TODO
+        for (int i = 0; i < (int)EnemySkills.SKILLCOUNT; i++)
+        {
+            abilities[i] = new Ability();
+            abilities[i].caster = this;
+            abilities[i].combatModule = combatModule;
+        }
+
+        int abilityIndex = (int)EnemySkills.Compromise;
+        abilities[abilityIndex].abilityType = abilityIndex;
+        abilities[abilityIndex].addsModifier = false;
+        abilities[abilityIndex].statToModify = (int)PlayerStatType.DataIntegrity;
+        abilities[abilityIndex].modValue = -25;
+        abilities[abilityIndex].bandwidthCost = 35;
+        abilities[abilityIndex].target = combatModule.player;
+
+        abilityIndex = (int)EnemySkills.Backdoor;
+        abilities[abilityIndex].abilityType = abilityIndex;
+        abilities[abilityIndex].addsModifier = true;
+        abilities[abilityIndex].statToModify = (int)CombatModifiers.OpenPorts;
+        abilities[abilityIndex].modValue = 1;
+        abilities[abilityIndex].bandwidthCost = 25;
+        abilities[abilityIndex].target = combatModule.player;
+
+        abilityIndex = (int)EnemySkills.DoS;
+        abilities[abilityIndex].abilityType = abilityIndex;
+        abilities[abilityIndex].addsModifier = true;
+        abilities[abilityIndex].statToModify = (int)CombatModifiers.Garbage;
+        abilities[abilityIndex].modValue = 1;
+        abilities[abilityIndex].bandwidthCost = 25;
+        abilities[abilityIndex].target = combatModule.player;
+
+        abilityIndex = (int)EnemySkills.Ping;
+        abilities[abilityIndex].abilityType = abilityIndex;
+        abilities[abilityIndex].addsModifier = false;
+        abilities[abilityIndex].statToModify = (int)PlayerStatType.ExfilChance;
+        abilities[abilityIndex].modValue = -3;
+        abilities[abilityIndex].bandwidthCost = 30;
+        abilities[abilityIndex].target = combatModule.player;
     }
 
     //ability target

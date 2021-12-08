@@ -73,32 +73,23 @@ public class PlayerCreation : MonoBehaviour
         {
             statValues[i] = PlayerStats._currentPlayerStats[i];
         }
+        pointsAvailable = PlayerStats._playerUpgradePoints;
         Debug.Log($"Loaded from {PlayerStats._currentSaveFileName}");
     }
 
     public void Save()
     {
         int i = 0;
-        foreach(int skill in statValues)
+        foreach (int skill in statValues)
         {
             PlayerStats._currentPlayerStats[i++] = skill;
         }
+        PlayerStats._playerUpgradePoints = pointsAvailable;
         Debug.Log("PlayerStats updated");
     }
 
     public void StartGame(string scenename)
     {
         SceneManager.LoadScene(scenename);
-    }
-   
-    public void Revert()
-    {
-        pointsAvailable += pointsUsed;
-        pointsUsed = 0;
-        for (int i = 0; i < modifiers.Length; i++)
-        {
-            modifiers[i].Clear();
-        }
-        DisplayValues();
     }
 }

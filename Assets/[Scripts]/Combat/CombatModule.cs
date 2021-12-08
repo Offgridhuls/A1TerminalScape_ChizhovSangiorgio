@@ -32,6 +32,7 @@ public class CombatModule : MonoBehaviour
         enemy.statsDisplay = enemyStatsDisplay;
         enemy.GenerateNew(PlayerStats._enemyDifficulty);
         enemy.combatModule = this;
+        enemy.QueueAbilities();
 
         playerAbilitiesPanel.SetActive(false);
         playerTurn = (player.RollInitiative() >= enemy.RollInitiative());
@@ -55,7 +56,7 @@ public class CombatModule : MonoBehaviour
         {
             battleStatusDisplay.text = "Enemy Turn";
             enemy.OnBeginTurn();
-            Invoke("ProcessEnemyTurn", 1.5f);
+            ProcessEnemyTurn();
         }
     }
 
@@ -68,12 +69,24 @@ public class CombatModule : MonoBehaviour
 
     void ProcessEnemyTurn()
     {
-        //TODO: enemy turn, play random actions while bandwidth is higher than the cost of cheapest skill && !combatTerminated
+        //begin enemy ability chain
+        StartCoroutine(OnEnemyAttemtAbilities());
+    }
 
-
-        //conclude turn
-        playerTurn = true;
-        BeginTurn();
+    IEnumerator OnEnemyAttemtAbilities()
+    {
+        yield return new WaitForSeconds(1.0f);
+        Debug.Log("Enemy selecting ability");
+        int skillToPlay = Random.Range(0, (int)EnemySkills.SKILLCOUNT);
+        if (enemy.AttemptPlayAbility((EnemySkills)skillToPlay)) 
+        {
+            StartCoroutine(OnEnemyAttemtAbilities());
+        }
+        else
+        {
+            playerTurn = true;
+            BeginTurn();
+        }
     }
 
     IEnumerator OnBattleOver(bool playerWin)
@@ -82,7 +95,11 @@ public class CombatModule : MonoBehaviour
         if (playerWin)
         {
             player.OnPlayerWin();
+            PlayerStats._playerUpgradePoints++;
+            PlayerStats._enemyDifficulty++;
             //TODO: save statics to file
+
+            ReturnToCreationScene();
         }
         else
         {
@@ -96,13 +113,15 @@ public class CombatModule : MonoBehaviour
         BattleNotify("Player had been defeated");
         playerAbilitiesPanel.SetActive(false);
         combatTerminated = true;
-        StartCoroutine(OnBattleOver(true));
+        StartCoroutine(OnBattleOver(false));
     }
 
     public void OnEnemyDeath()
     {
+        BattleNotify("Breach successful, upgrade point acquired");
         playerAbilitiesPanel.SetActive(false);
         combatTerminated = true;
+        StartCoroutine(OnBattleOver(true));
     }
 
     public void OnPlayerExfilSuccess()
@@ -137,6 +156,11 @@ public class CombatModule : MonoBehaviour
     void ReturnToGameScene()
     {
         SceneManager.LoadScene("Scenes/GameScene");
+    }
+
+    void ReturnToCreationScene()
+    {
+        SceneManager.LoadScene("Scenes/PlayerCreation");
     }
 
     void ReturnToMainMenu()
