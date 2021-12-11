@@ -5,12 +5,5 @@ using UnityEngine.SceneManagement;
 
 public class WorldTraveler : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.gameObject.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(3, LoadSceneMode.Single);
-        }
-    }
 
 }

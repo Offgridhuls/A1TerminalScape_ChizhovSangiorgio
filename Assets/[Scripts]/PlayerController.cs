@@ -9,9 +9,15 @@ public class PlayerController : MonoBehaviour
     private float moveSpeed = 1.0f;
 
     private Rigidbody2D rb;
+
+    public static PlayerController instance;
+
+    public static bool canOpenDoor;
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
+        canOpenDoor = false;
         rb = GetComponent<Rigidbody2D>();
     }
 

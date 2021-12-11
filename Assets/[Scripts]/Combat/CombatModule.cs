@@ -34,6 +34,7 @@ public class CombatModule : MonoBehaviour
         enemy.combatModule = this;
         enemy.QueueAbilities();
 
+
         playerAbilitiesPanel.SetActive(false);
         playerTurn = (player.RollInitiative() >= enemy.RollInitiative());
         Invoke("BeginTurn", 1.5f);

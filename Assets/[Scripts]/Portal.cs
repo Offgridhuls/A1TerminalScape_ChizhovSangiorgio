@@ -6,7 +6,6 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject panel1;
 
     void Start()
     {
@@ -23,12 +22,8 @@ public class Portal : MonoBehaviour
         WorldTraveler TravelerObject = collision.GetComponent<WorldTraveler>();
         if (TravelerObject != null)
         {
-            if (panel1 != null)
-            {
-                panel1.SetActive(true);
-                Debug.Log("ree");
-            }
-           // SceneManager.LoadScene(tag);
+            if (PlayerController.canOpenDoor)
+                SceneManager.LoadScene("LeftMostLevel");
         }
     }
 }

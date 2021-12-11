@@ -68,7 +68,19 @@ public class Testing : MonoBehaviour
     /// <summary>
     /// save file format - csv, anything in {} represents parameter:
     /// {ActiveDataIntegrity}, {DataIntegrity}, {BandwidthCap}, {ConnectionSpeed}, {Backups}, {SystemKnowledge}, {ExfilChance}, {PointsAvailable}, {EnemyLevel}, {CurrentIntegrity}
+    /// 
     /// </summary>
+    public void SavePlayerData()
+    {
+
+        StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{PlayerStats._currentSaveFileName}.txt");
+        string line = "";
+        line += $"{PlayerStats._currentPlayerIntegrity},{PlayerStats._currentPlayerStats[0]},{PlayerStats._currentPlayerStats[1]},{PlayerStats._currentPlayerStats[2]},{PlayerStats._currentPlayerStats[3]},{PlayerStats._currentPlayerStats[4]},{PlayerStats._currentPlayerStats[5]},{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty}";
+        sw.WriteLine(line);
+        sw.Close();
+
+    }
+
     public void WritePlayerData()
     {
         StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{saveFileName}.txt");
@@ -77,11 +89,12 @@ public class Testing : MonoBehaviour
         {
             line += $"{stat},";
         }
-        line += $"{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty},{PlayerStats._currentPlayerIntegrity}";
+        line += $"{PlayerStats._playerUpgradePoints},{PlayerStats._enemyDifficulty}";
         sw.WriteLine(line);
         sw.Close();
         PlayerStats._fileLoaded = true;
         PlayerStats._currentSaveFileName = saveFileName;
+        PlayerStats._playerUpgradePoints = 5;
         Debug.Log($"Save file registered: {saveFileName}");
     }
 
@@ -97,10 +110,12 @@ public class Testing : MonoBehaviour
                 {
                     string[] csv = line.Split(',');
                     PlayerStats._currentPlayerIntegrity = int.Parse(csv[0]);
-                    for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
-                    {
-                        PlayerStats._currentPlayerStats[i] = int.Parse(csv[i+1]);
-                    }
+                    PlayerStats._currentPlayerStats[0] = int.Parse(csv[1]);
+                    PlayerStats._currentPlayerStats[1] = int.Parse(csv[2]);
+                    PlayerStats._currentPlayerStats[2] = int.Parse(csv[3]);
+                    PlayerStats._currentPlayerStats[3] = int.Parse(csv[4]);
+                    PlayerStats._currentPlayerStats[4] = int.Parse(csv[5]);
+                    PlayerStats._currentPlayerStats[5] = int.Parse(csv[6]);
                     PlayerStats._playerUpgradePoints = int.Parse(csv[7]);
                     PlayerStats._enemyDifficulty = int.Parse(csv[8]);
                 }

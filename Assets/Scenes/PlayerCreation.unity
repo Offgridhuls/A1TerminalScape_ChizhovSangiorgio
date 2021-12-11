@@ -1314,6 +1314,18 @@ MonoBehaviour:
           m_StringArgument: GameScene
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1525844676}
+        m_TargetAssemblyTypeName: Testing, Assembly-CSharp
+        m_MethodName: SavePlayerData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &671773484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2575,6 +2587,7 @@ GameObject:
   - component: {fileID: 1525844672}
   - component: {fileID: 1525844671}
   - component: {fileID: 1525844675}
+  - component: {fileID: 1525844676}
   m_Layer: 5
   m_Name: PlayerCreationCanvas
   m_TagString: Untagged
@@ -2688,6 +2701,19 @@ MonoBehaviour:
   - {fileID: 1870445241}
   - {fileID: 1386799875}
   AvailablePointsText: {fileID: 777631605}
+--- !u!114 &1525844676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525844670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87ef6b994a84434e8787c85c343bf49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatDisplay: {fileID: 0}
 --- !u!1 &1554870919
 GameObject:
   m_ObjectHideFlags: 0
